@@ -1,0 +1,21 @@
+[
+  { "name": "Archives Key", "type": "toggle", "img": "images/items/archives_key.png", "codes": "archives_key" },
+  { "name": "Left Tower Key", "type": "toggle", "img": "images/items/left_tower_key.png", "codes": "left_tower_key" },
+  { "name": "Storeroom Key", "type": "toggle", "img": "images/items/storeroom_key.png", "codes": "storeroom_key" },
+  { "name": "Garden Key", "type": "toggle", "img": "images/items/garden_key.png", "codes": "garden_key" },
+  { "name": "Copper Key", "type": "toggle", "img": "images/items/copper_key.png", "codes": "copper_key" },
+  { "name": "Chamber Key", "type": "toggle", "img": "images/items/chamber_key.png", "codes": "chamber_key" },
+  { "name": "Execution Key", "type": "toggle", "img": "images/items/execution_key.png", "codes": "execution_key" },
+  { "name": "Science Key1", "type": "toggle", "img": "images/items/science_key1.png", "codes": "science_key1" },
+  { "name": "Science Key2", "type": "toggle", "img": "images/items/science_key2.png", "codes": "science_key2" },
+  { "name": "Science Key3", "type": "toggle", "img": "images/items/science_key3.png", "codes": "science_key3" },
+  { "name": "Clocktower Key1", "type": "toggle", "img": "images/items/clocktower_key1.png", "codes": "clocktower_key1" },
+  { "name": "Clocktower Key2", "type": "toggle", "img": "images/items/clocktower_key2.png", "codes": "clocktower_key2" },
+  { "name": "Clocktower Key3", "type": "toggle", "img": "images/items/clocktower_key3.png", "codes": "clocktower_key3" },
+  { "name": "Magical Nitro", "type": "consumable", "img": "images/items/magical_nitro.png", "codes": "magical_nitro", "max_quantity": 4 },
+  { "name": "Mandragora", "type": "consumable", "img": "images/items/mandragora.png", "codes": "mandragora", "max_quantity": 4 },
+  { "name": "Special1", "type": "consumable", "img": "images/items/special1.png", "codes": "special1", "max_quantity": 99 },
+  { "name": "Special2", "type": "consumable", "img": "images/items/special2.png", "codes": "special2", "max_quantity": 99 },
+  { "name": "Crystal (activated)", "type": "toggle", "img": "images/items/crystal.png", "codes": "crystal" },
+  { "name": "Bosses defeated", "type": "consumable", "img": "images/items/trophy.png", "codes": "trophy", "max_quantity": 99 }
+]

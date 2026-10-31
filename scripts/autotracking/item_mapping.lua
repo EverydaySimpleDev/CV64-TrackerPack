@@ -1,0 +1,40 @@
+-- Generated from the CV64 AP world - regenerate instead of editing.
+-- AP item id -> { tracker item code, how receiving it changes the item }
+ITEM_MAPPING = {
+    [12992514] = nil,  -- Red jewel(S) (not shown)
+    [12992515] = nil,  -- Red jewel(L) (not shown)
+    [12992516] = {"special1", "consumable"},  -- Special1
+    [12992517] = {"special2", "consumable"},  -- Special2
+    [12992518] = nil,  -- Roast chicken (not shown)
+    [12992519] = nil,  -- Roast beef (not shown)
+    [12992520] = nil,  -- Healing kit (not shown)
+    [12992521] = nil,  -- Purifying (not shown)
+    [12992522] = nil,  -- Cure ampoule (not shown)
+    [12992524] = nil,  -- PowerUp (not shown)
+    [12992525] = nil,  -- Knife (not shown)
+    [12992526] = nil,  -- Holy water (not shown)
+    [12992527] = nil,  -- Cross (not shown)
+    [12992528] = nil,  -- Axe (not shown)
+    [12992530] = nil,  -- Ice Trap (not shown)
+    [12992533] = {"magical_nitro", "consumable"},  -- Magical Nitro
+    [12992534] = {"mandragora", "consumable"},  -- Mandragora
+    [12992535] = nil,  -- Sun card (not shown)
+    [12992536] = nil,  -- Moon card (not shown)
+    [12992538] = {"archives_key", "toggle"},  -- Archives Key
+    [12992539] = {"left_tower_key", "toggle"},  -- Left Tower Key
+    [12992540] = {"storeroom_key", "toggle"},  -- Storeroom Key
+    [12992541] = {"garden_key", "toggle"},  -- Garden Key
+    [12992542] = {"copper_key", "toggle"},  -- Copper Key
+    [12992543] = {"chamber_key", "toggle"},  -- Chamber Key
+    [12992544] = {"execution_key", "toggle"},  -- Execution Key
+    [12992545] = {"science_key1", "toggle"},  -- Science Key1
+    [12992546] = {"science_key2", "toggle"},  -- Science Key2
+    [12992547] = {"science_key3", "toggle"},  -- Science Key3
+    [12992548] = {"clocktower_key1", "toggle"},  -- Clocktower Key1
+    [12992549] = {"clocktower_key2", "toggle"},  -- Clocktower Key2
+    [12992550] = {"clocktower_key3", "toggle"},  -- Clocktower Key3
+    [12992551] = nil,  -- 500 GOLD (not shown)
+    [12992552] = nil,  -- 300 GOLD (not shown)
+    [12992553] = nil,  -- 100 GOLD (not shown)
+    [12992780] = nil,  -- PermaUp (not shown)
+}

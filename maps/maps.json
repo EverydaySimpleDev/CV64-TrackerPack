@@ -1,0 +1,122 @@
+[
+  {
+    "name": "forest_of_silence",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/forest_of_silence.png"
+  },
+  {
+    "name": "castle_wall",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/castle_wall.png"
+  },
+  {
+    "name": "villa_yard",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/villa_yard.png"
+  },
+  {
+    "name": "villa",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/villa.png"
+  },
+  {
+    "name": "garden_maze",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/garden_maze.png"
+  },
+  {
+    "name": "crypt",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/crypt.png"
+  },
+  {
+    "name": "tunnel",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/tunnel.png"
+  },
+  {
+    "name": "underground_waterway",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/underground_waterway.png"
+  },
+  {
+    "name": "castle_center_basement",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/castle_center_basement.png"
+  },
+  {
+    "name": "castle_center_elevator",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/castle_center_elevator.png"
+  },
+  {
+    "name": "castle_center_lizard_lab",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/castle_center_lizard_lab.png"
+  },
+  {
+    "name": "castle_center_library",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/castle_center_library.png"
+  },
+  {
+    "name": "castle_center_nitro",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/castle_center_nitro.png"
+  },
+  {
+    "name": "duel_tower",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/duel_tower.png"
+  },
+  {
+    "name": "tower_of_execution",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/tower_of_execution.png"
+  },
+  {
+    "name": "tower_of_science",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/tower_of_science.png"
+  },
+  {
+    "name": "tower_of_sorcery",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/tower_of_sorcery.png"
+  },
+  {
+    "name": "room_of_clocks",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/room_of_clocks.png"
+  },
+  {
+    "name": "clock_tower",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/clock_tower.png"
+  },
+  {
+    "name": "castle_keep",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/castle_keep.png"
+  }
+]

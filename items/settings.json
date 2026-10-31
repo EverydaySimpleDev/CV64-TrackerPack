@@ -1,0 +1,37 @@
+[
+  { "name": "Hard Logic", "type": "toggle", "img": "images/settings/setting_hard_logic.png", "codes": "setting_hard_logic" },
+  { "name": "Carrie Logic", "type": "toggle", "img": "images/settings/setting_carrie_logic.png", "codes": "setting_carrie_logic" },
+  { "name": "Multi-hit Breakables", "type": "toggle", "img": "images/settings/setting_multi_hit.png", "codes": "setting_multi_hit" },
+  { "name": "Empty Breakables", "type": "toggle", "img": "images/settings/setting_empty.png", "codes": "setting_empty" },
+  { "name": "Lizard Locker Items", "type": "toggle", "img": "images/settings/setting_lizard_lockers.png", "codes": "setting_lizard_lockers" },
+  { "name": "Shopsanity", "type": "toggle", "img": "images/settings/setting_shopsanity.png", "codes": "setting_shopsanity" },
+  { "name": "Open Stages (ignore stage order)", "type": "toggle", "img": "images/settings/setting_open_stages.png", "codes": "setting_open_stages" },
+  {
+    "name": "Sub-weapon Shuffle", "type": "progressive", "codes": "subweapons", "allow_disabled": false, "loop": true,
+    "stages": [
+      { "name": "Sub-weapons: Off", "img": "images/settings/subweapons_0.png", "codes": "subweapons_0", "inherit_codes": false },
+      { "name": "Sub-weapons: Own Pool", "img": "images/settings/subweapons_1.png", "codes": "subweapons_1", "inherit_codes": false },
+      { "name": "Sub-weapons: Anywhere", "img": "images/settings/subweapons_2.png", "codes": "subweapons_2", "inherit_codes": false }
+    ]
+  },
+  {
+    "name": "Dracula's Condition", "type": "progressive", "codes": "goal", "allow_disabled": false, "loop": true,
+    "stages": [
+      { "name": "Dracula's Condition: None", "img": "images/settings/goal_0.png", "codes": "goal_0", "inherit_codes": false },
+      { "name": "Dracula's Condition: Crystal", "img": "images/settings/goal_1.png", "codes": "goal_1", "inherit_codes": false },
+      { "name": "Dracula's Condition: Bosses", "img": "images/settings/goal_2.png", "codes": "goal_2", "inherit_codes": false },
+      { "name": "Dracula's Condition: Special2s", "img": "images/settings/goal_3.png", "codes": "goal_3", "inherit_codes": false }
+    ]
+  },
+  {
+    "name": "Character Stages", "type": "progressive", "codes": "characters", "allow_disabled": false, "loop": true,
+    "stages": [
+      { "name": "Character Stages: Both (branching)", "img": "images/settings/characters_0.png", "codes": "characters_0", "inherit_codes": false },
+      { "name": "Character Stages: Both (branchless)", "img": "images/settings/characters_1.png", "codes": "characters_1", "inherit_codes": false },
+      { "name": "Character Stages: Reinhardt only", "img": "images/settings/characters_2.png", "codes": "characters_2", "inherit_codes": false },
+      { "name": "Character Stages: Carrie only", "img": "images/settings/characters_3.png", "codes": "characters_3", "inherit_codes": false }
+    ]
+  },
+  { "name": "Special1s per Warp", "type": "consumable", "img": "images/settings/special1s_per_warp.png", "codes": "special1s_per_warp", "max_quantity": 10 },
+  { "name": "Bosses / Special2s needed for Dracula", "type": "consumable", "img": "images/settings/goal_count.png", "codes": "goal_count", "max_quantity": 99 }
+]

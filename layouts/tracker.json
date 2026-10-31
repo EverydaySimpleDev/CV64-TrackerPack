@@ -1,0 +1,100 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#00000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Settings",
+              "dock": "right",
+              "content": {
+                "type": "layout",
+                "key": "settings_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Items",
+              "content": {
+                "type": "layout",
+                "key": "item_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "layout",
+          "key": "map_tabs"
+        }
+      ]
+    }
+  },
+  "tracker_broadcast": {
+    "type": "layout",
+    "key": "item_grid"
+  },
+  "item_grid": {
+    "type": "itemgrid",
+    "item_margin": "2,2",
+    "item_size": 40,
+    "rows": [
+      [
+        "archives_key",
+        "storeroom_key",
+        "garden_key",
+        "copper_key",
+        "left_tower_key",
+        "chamber_key",
+        "execution_key"
+      ],
+      [
+        "science_key1",
+        "science_key2",
+        "science_key3",
+        "clocktower_key1",
+        "clocktower_key2",
+        "clocktower_key3"
+      ],
+      [
+        "magical_nitro",
+        "mandragora",
+        "special1",
+        "special2",
+        "crystal",
+        "trophy"
+      ]
+    ]
+  },
+  "settings_grid": {
+    "type": "itemgrid",
+    "item_margin": "2,2",
+    "item_size": 32,
+    "rows": [
+      [
+        "setting_hard_logic",
+        "setting_carrie_logic",
+        "setting_multi_hit",
+        "setting_empty",
+        "setting_lizard_lockers"
+      ],
+      [
+        "setting_shopsanity",
+        "subweapons",
+        "characters",
+        "goal",
+        "goal_count"
+      ],
+      [
+        "special1s_per_warp",
+        "setting_open_stages"
+      ]
+    ]
+  }
+}

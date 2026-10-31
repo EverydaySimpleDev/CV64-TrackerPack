@@ -1,0 +1,227 @@
+{
+  "map_tabs": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Forest of Silence",
+        "content": {
+          "type": "map",
+          "maps": [
+            "forest_of_silence"
+          ]
+        }
+      },
+      {
+        "title": "Castle Wall",
+        "content": {
+          "type": "map",
+          "maps": [
+            "castle_wall"
+          ]
+        }
+      },
+      {
+        "title": "Villa",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Yard",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "villa_yard"
+                ]
+              }
+            },
+            {
+              "title": "Interior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "villa"
+                ]
+              }
+            },
+            {
+              "title": "Garden Maze",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "garden_maze"
+                ]
+              }
+            },
+            {
+              "title": "Crypt",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "crypt"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Tunnel & Waterway",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Tunnel",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tunnel"
+                ]
+              }
+            },
+            {
+              "title": "Waterway",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "underground_waterway"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Castle Center",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Basement",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "castle_center_basement"
+                ]
+              }
+            },
+            {
+              "title": "Elevator",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "castle_center_elevator"
+                ]
+              }
+            },
+            {
+              "title": "Lizard Lab",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "castle_center_lizard_lab"
+                ]
+              }
+            },
+            {
+              "title": "Library",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "castle_center_library"
+                ]
+              }
+            },
+            {
+              "title": "Inventions",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "castle_center_nitro"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Towers",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Duel Tower",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "duel_tower"
+                ]
+              }
+            },
+            {
+              "title": "Tower of Execution",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tower_of_execution"
+                ]
+              }
+            },
+            {
+              "title": "Tower of Science",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tower_of_science"
+                ]
+              }
+            },
+            {
+              "title": "Tower of Sorcery",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tower_of_sorcery"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Clocks",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Room of Clocks",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "room_of_clocks"
+                ]
+              }
+            },
+            {
+              "title": "Clock Tower",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "clock_tower"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Castle Keep",
+        "content": {
+          "type": "map",
+          "maps": [
+            "castle_keep"
+          ]
+        }
+      }
+    ]
+  }
+}

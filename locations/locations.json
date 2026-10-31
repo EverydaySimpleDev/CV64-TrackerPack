@@ -1,0 +1,6927 @@
+[
+  {
+    "name": "Forest of Silence",
+    "children": [
+      {
+        "name": "Forest of Silence: Grab practice pillars",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1
+          },
+          {
+            "name": "Left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          },
+          {
+            "name": "Top",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 171,
+            "y": 74
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: King Skeleton's bridge",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 330,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: King Skeleton 1",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 332,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Moon gazebo inside",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 285,
+            "y": 481
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Moon gazebo roof",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 284,
+            "y": 473
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Sun gazebo inside",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 255,
+            "y": 445
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Sun gazebo roof",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 255,
+            "y": 437
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Were-tiger switch",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 157,
+            "y": 321
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Were-tiger",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 155,
+            "y": 331
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Dirge maiden gate",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 453,
+            "y": 453
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Dirge maiden crypt",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Lower",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          },
+          {
+            "name": "Upper",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 453,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Dirge maiden pedestal plaque",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 505,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Dirge maiden pedestal",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 507,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Dirge maiden rock",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 545,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Tri-corpse save junction",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 383,
+            "y": 544
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Descending bridge wall side",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 237,
+            "y": 553
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Descending bridge switch side",
+        "access_rules": [
+          "^$reach|Forest of Silence: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 157,
+            "y": 608
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Tri-corpse gate - Left",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 439,
+            "y": 627
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Tri-corpse gate - Right",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 468,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Three-crypt plaza main path crypt",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Lower",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          },
+          {
+            "name": "Upper-rear",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          },
+          {
+            "name": "Upper-front",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 560,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Three-crypt plaza back-facing crypt",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Lower-front",
+            "item_count": 1
+          },
+          {
+            "name": "Lower-rear",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          },
+          {
+            "name": "Upper",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 613,
+            "y": 669
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Invisible bridge platform",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 646,
+            "y": 578
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Bat archway rock",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 731,
+            "y": 563
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Werewolf crypt",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left-front",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          },
+          {
+            "name": "Left-rear",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          },
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 856,
+            "y": 561
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Werewolf statue plaque",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 827,
+            "y": 537
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Werewolf path near tree",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 708,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Werewolf path island switch platforms",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 655,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: Three-crypt plaza switch",
+        "access_rules": [
+          "^$reach|Forest of Silence: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 563,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "name": "Forest of Silence: King Skeleton 2",
+        "access_rules": [
+          "^$reach|Forest of Silence: end area"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_of_silence",
+            "x": 933,
+            "y": 656
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle Wall",
+    "children": [
+      {
+        "name": "Castle Wall: Above bottom right tower door",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 1044,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: White Dragons switch door",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 345,
+            "y": 324
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Bone Dragons",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 416,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Central rampart savepoint slab",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 487,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Central rampart near right tower",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 431,
+            "y": 452
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Central rampart near left tower",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 622,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Central rampart broken pillar",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 588,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Sandbag shelf",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Visible",
+            "item_count": 1
+          },
+          {
+            "name": "Invisible",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 199,
+            "y": 672
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Sandbag shelf floor torch",
+        "access_rules": [
+          "^$reach|Castle Wall: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 438,
+            "y": 671
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Ground gatehouse - Left",
+        "access_rules": [
+          "^$reach|Castle Wall: exit room"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 831,
+            "y": 1101
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Ground gatehouse - Middle",
+        "access_rules": [
+          "^$reach|Castle Wall: exit room"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Middle",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 758,
+            "y": 1116
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Ground gatehouse - Right",
+        "access_rules": [
+          "^$reach|Castle Wall: exit room"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 662,
+            "y": 1129
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Above bottom left tower door",
+        "access_rules": [
+          "^$reach|Castle Wall: left tower"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 60,
+            "y": 999
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Left tower child ledge",
+        "access_rules": [
+          "^$reach|Castle Wall: left tower"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 217,
+            "y": 821
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Dracula cutscene switch door",
+        "access_rules": [
+          "^$reach|Castle Wall: left tower"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 717,
+            "y": 128
+          }
+        ]
+      },
+      {
+        "name": "Castle Wall: Dracula cutscene switch slab",
+        "access_rules": [
+          "^$reach|Castle Wall: left tower"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_wall",
+            "x": 691,
+            "y": 138
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Villa",
+    "children": [
+      {
+        "name": "Villa: Outer front gate - Left",
+        "access_rules": [
+          "^$reach|Villa: dog gates"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 986,
+            "y": 503
+          }
+        ]
+      },
+      {
+        "name": "Villa: Outer front gate - Right",
+        "access_rules": [
+          "^$reach|Villa: dog gates"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 564,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "Villa: Outer front gate platform",
+        "access_rules": [
+          "^$reach|Villa: dog gates"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 569,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Villa: Inner front gate dog food",
+        "access_rules": [
+          "^$reach|Villa: dog gates"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 591,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Villa: Front yard cross grave near gates",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 461,
+            "y": 583
+          }
+        ]
+      },
+      {
+        "name": "Villa: Front yard cross grave near porch",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 574,
+            "y": 1013
+          }
+        ]
+      },
+      {
+        "name": "Villa: Front yard visitor's tombstone",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 260,
+            "y": 885
+          }
+        ]
+      },
+      {
+        "name": "Villa: Midnight fountain - Front-left / Middle-left",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Front-left",
+            "item_count": 1
+          },
+          {
+            "name": "Middle-left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 483,
+            "y": 794
+          }
+        ]
+      },
+      {
+        "name": "Villa: Midnight fountain - Front-right / Middle-right / Rear-right",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Front-right",
+            "item_count": 1
+          },
+          {
+            "name": "Middle-right",
+            "item_count": 1
+          },
+          {
+            "name": "Rear-right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 446,
+            "y": 784
+          }
+        ]
+      },
+      {
+        "name": "Villa: Midnight fountain - Rear-left",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Rear-left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa_yard",
+            "x": 450,
+            "y": 807
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer lower level - Front-right",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Front-right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 829,
+            "y": 511
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer lower level - Front-left",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Front-left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 687,
+            "y": 538
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer lower level - Middle-left",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Middle-left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 713,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer lower level - Middle-right",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Middle-right",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 785,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer lower level - Rear-right",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Rear-right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 797,
+            "y": 373
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer lower level - Rear-left",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Rear-left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 615,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer upper-right pot",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 844,
+            "y": 237
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer upper-left pot",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 513,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer sofa",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 882,
+            "y": 297
+          }
+        ]
+      },
+      {
+        "name": "Villa: Foyer chandelier",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 464,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Villa: Rose garden staircase bottom",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 910,
+            "y": 423
+          }
+        ]
+      },
+      {
+        "name": "Villa: Hallway near rose garden stairs - Left",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 355,
+            "y": 442
+          }
+        ]
+      },
+      {
+        "name": "Villa: Hallway near rose garden stairs - Right",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 307,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Villa: Bedroom near chairs",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 164,
+            "y": 366
+          }
+        ]
+      },
+      {
+        "name": "Villa: Bedroom near bed",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 139,
+            "y": 371
+          }
+        ]
+      },
+      {
+        "name": "Villa: Vincent",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 146,
+            "y": 234
+          }
+        ]
+      },
+      {
+        "name": "Villa: Mary's room table",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 107,
+            "y": 244
+          }
+        ]
+      },
+      {
+        "name": "Villa: Mary's room corner",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 126,
+            "y": 219
+          }
+        ]
+      },
+      {
+        "name": "Villa: Dining room rose vase",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 937,
+            "y": 269
+          }
+        ]
+      },
+      {
+        "name": "Villa: Living room - Right pot",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right pot",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 483,
+            "y": 225
+          }
+        ]
+      },
+      {
+        "name": "Villa: Living room - Left pot",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left pot",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 590,
+            "y": 204
+          }
+        ]
+      },
+      {
+        "name": "Villa: Living room clawed painting",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 508,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Villa: Living room ceiling light",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 522,
+            "y": 146
+          }
+        ]
+      },
+      {
+        "name": "Villa: Living room lion head",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 331,
+            "y": 198
+          }
+        ]
+      },
+      {
+        "name": "Villa: Maze garden exit knight",
+        "access_rules": [
+          "^$reach|Villa: main interior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 638,
+            "y": 211
+          }
+        ]
+      },
+      {
+        "name": "Villa: Storeroom",
+        "access_rules": [
+          "^$reach|Villa: storeroom"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          },
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 297,
+            "y": 218
+          }
+        ]
+      },
+      {
+        "name": "Villa: Storeroom statue",
+        "access_rules": [
+          "^$reach|Villa: storeroom"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 297,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "Villa: Archives near entrance",
+        "access_rules": [
+          "^$reach|Villa: archives"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 1036,
+            "y": 111
+          }
+        ]
+      },
+      {
+        "name": "Villa: Archives table",
+        "access_rules": [
+          "^$reach|Villa: archives"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 909,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "Villa: Archives rear corner",
+        "access_rules": [
+          "^$reach|Villa: archives"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 798,
+            "y": 96
+          }
+        ]
+      },
+      {
+        "name": "Villa: Front maze garden - Malus start torch",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Malus start torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 884,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Villa: Front maze garden - Malus's hiding bush",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Malus's hiding bush",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 926,
+            "y": 442
+          }
+        ]
+      },
+      {
+        "name": "Villa: Front maze garden - Viewing platform",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Viewing platform",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 632,
+            "y": 348
+          }
+        ]
+      },
+      {
+        "name": "Villa: Front maze garden - Frankie's left dead-end",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Frankie's left dead-end",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 284,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "Villa: Front maze garden - Frankie's right dead-end / Frankie's right dead-end urn",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Frankie's right dead-end",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          },
+          {
+            "name": "Frankie's right dead-end urn",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 537,
+            "y": 371
+          }
+        ]
+      },
+      {
+        "name": "Villa: Rear maze garden - Iron Thorn Fenced area - Front / Iron Thorn Fenced area - Mid-front",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Iron Thorn Fenced area - Front",
+            "item_count": 1
+          },
+          {
+            "name": "Iron Thorn Fenced area - Mid-front",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 308,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Villa: Rear maze garden - Iron Thorn Fenced area - Mid-rear",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Iron Thorn Fenced area - Mid-rear",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 334,
+            "y": 708
+          }
+        ]
+      },
+      {
+        "name": "Villa: Rear maze garden - Iron Thorn Fenced area - Rear",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Iron Thorn Fenced area - Rear",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 367,
+            "y": 692
+          }
+        ]
+      },
+      {
+        "name": "Villa: Rear maze garden - Viewing platform",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Viewing platform",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 367,
+            "y": 464
+          }
+        ]
+      },
+      {
+        "name": "Villa: Rear maze garden - Viewing platform dead-end",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Viewing platform dead-end",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 414,
+            "y": 583
+          }
+        ]
+      },
+      {
+        "name": "Villa: Rear maze garden - Past-exit dead-end",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Past-exit dead-end",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 34,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Villa: Servants' path small alcove",
+        "access_rules": [
+          "^$reach|Villa: maze"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 607,
+            "y": 96
+          }
+        ]
+      },
+      {
+        "name": "Villa: Servants' entrance",
+        "access_rules": [
+          "^$reach|Villa: servants entrance"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 973,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Villa: Crypt entrance",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 717,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "Villa: Crypt bridge upstream",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "garden_maze",
+            "x": 881,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Villa: Crypt - Left from entrance",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left from entrance",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 722,
+            "y": 941
+          }
+        ]
+      },
+      {
+        "name": "Villa: Crypt - Right from entrance",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right from entrance",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 833,
+            "y": 892
+          }
+        ]
+      },
+      {
+        "name": "Villa: Crypt - Left wall",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left wall",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 278,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "name": "Villa: Crypt - Right wall",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right wall",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 817,
+            "y": 511
+          }
+        ]
+      },
+      {
+        "name": "Villa: Crypt - Left of coffin",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left of coffin",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 250,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "Villa: Crypt - Right of coffin",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right of coffin",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 433,
+            "y": 295
+          }
+        ]
+      },
+      {
+        "name": "Villa: J. A. Oldrey",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 433,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Villa: Undead Maiden",
+        "access_rules": [
+          "^$reach|Villa: crypt"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "crypt",
+            "x": 433,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tunnel",
+    "children": [
+      {
+        "name": "Tunnel: Landing point",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 222,
+            "y": 900
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Landing point rock crusher",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 225,
+            "y": 855
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Stepping stone alcove",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          },
+          {
+            "name": "Left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 631,
+            "y": 255
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Twin arrow signs",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 448,
+            "y": 200
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Twin arrow signs rock",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 561,
+            "y": 146
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Near lonesome bucket",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 100,
+            "y": 606
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Lonesome bucket moon door",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 20,
+            "y": 502
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Lonesome bucket poison pit",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 129,
+            "y": 572
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Lonesome bucket poison pit rock",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 176,
+            "y": 583
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Lonesome bucket-Albert junction",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 149,
+            "y": 627
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Albert's campsite",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 183,
+            "y": 616
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Albert's poison pit",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 214,
+            "y": 698
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Gondola rock crusher sun door",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          },
+          {
+            "name": "Middle",
+            "item_count": 1
+          },
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 53,
+            "y": 755
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Gondola rock crusher",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 251,
+            "y": 768
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Red gondola station",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 372,
+            "y": 929
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Gondola transfer point",
+        "access_rules": [
+          "^$reach|Tunnel: first half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 173,
+            "y": 836
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Corpse bucket poison pit",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 915,
+            "y": 584
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Corpse bucket moon door",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          },
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 1063,
+            "y": 569
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Shovel poison pit start",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 951,
+            "y": 698
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Exit door poison pit start",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 984,
+            "y": 727
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Shovel poison pit end",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 794,
+            "y": 679
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Exit door poison pit end",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 905,
+            "y": 836
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Shovel",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 800,
+            "y": 687
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Shovel zone save junction",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 760,
+            "y": 732
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Shovel zone moon door",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          },
+          {
+            "name": "Right",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 605,
+            "y": 771
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      },
+      {
+        "name": "Tunnel: Shovel zone sun door",
+        "access_rules": [
+          "^$reach|Tunnel: second half"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          },
+          {
+            "name": "Middle",
+            "item_count": 1
+          },
+          {
+            "name": "Right",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tunnel",
+            "x": 805,
+            "y": 813
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tunnel"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Waterway",
+    "children": [
+      {
+        "name": "Underground Waterway: Near entrance corridor",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 607,
+            "y": 117
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Across from entrance",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 707,
+            "y": 73
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: First poison parkour ledge",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 6",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 843,
+            "y": 236
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Across poison parkour ledges",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 982,
+            "y": 440
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Lizard-man trio",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 823,
+            "y": 428
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Waterfall alcove ledge",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 663,
+            "y": 415
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Carrie crawlspace corridor - First left",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "First left",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_carrie_logic"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 908,
+            "y": 511
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Carrie crawlspace corridor - Second left",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Second left",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_carrie_logic"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 1002,
+            "y": 470
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Brick platforms save corridor",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 878,
+            "y": 752
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Above skeleton crusher ledge",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 449,
+            "y": 547
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      },
+      {
+        "name": "Underground Waterway: Inside skeleton crusher ledge",
+        "access_rules": [
+          "^$reach|Underground Waterway: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_waterway",
+            "x": 449,
+            "y": 555
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Underground Waterway"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle Center",
+    "children": [
+      {
+        "name": "Castle Center: Entrance hallway",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 877,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Basement hallway junction",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 829,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Torture chamber hallway",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 754,
+            "y": 539
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena hallway",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 682,
+            "y": 258
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena - Left far-front torch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left far-front torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 673,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena - Left mid-front torch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left mid-front torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 605,
+            "y": 541
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena - Left mid-rear torch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left mid-rear torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 535,
+            "y": 572
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena - Left far-rear torch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left far-rear torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 467,
+            "y": 602
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena - Right far-front torch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right far-front torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 409,
+            "y": 162
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena - Right mid-front torch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right mid-front torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 341,
+            "y": 192
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena - Right mid-rear torch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right mid-rear torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 272,
+            "y": 222
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena - Right far-rear torch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right far-rear torch",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 203,
+            "y": 253
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth arena crate",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 151,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Near elevator room machine",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_elevator",
+            "x": 360,
+            "y": 341
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Atop elevator room machine",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_elevator",
+            "x": 366,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Elevator room unoccupied statue stand",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_elevator",
+            "x": 335,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Elevator pipe device",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_elevator",
+            "x": 263,
+            "y": 371
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Near elevator switch",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_elevator",
+            "x": 211,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Elevator room staircase",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_elevator",
+            "x": 67,
+            "y": 339
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Red carpet hall knight",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 800,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Gear room side",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 294,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Gear room center",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 444,
+            "y": 511
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Gear room corner",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 282,
+            "y": 736
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Lizard locker knight",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 1004,
+            "y": 634
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Near lizard locker knight",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 1038,
+            "y": 631
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Lizard locker room near pit",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 872,
+            "y": 701
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Lizard locker room corner",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 332,
+            "y": 747
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Far-right near-side lizard locker",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_lizard_lockers"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 855,
+            "y": 513
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Mid-right near-side lizard locker",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_lizard_lockers"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 308,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Mid-left near-side lizard locker",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_lizard_lockers"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 279,
+            "y": 594
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Far-left near-side lizard locker",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_lizard_lockers"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 204,
+            "y": 577
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Left far-side lizard locker",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_lizard_lockers"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 349,
+            "y": 622
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Right far-side lizard locker",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_lizard_lockers"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 598,
+            "y": 815
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Lizard locker room slab",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_lizard_lab",
+            "x": 804,
+            "y": 513
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Broken staircase floor",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 123,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Broken staircase knight",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 167,
+            "y": 486
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Above broken staircase savepoint",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 275,
+            "y": 406
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Stained Glass Knight room - Left",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 192,
+            "y": 441
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Stained Glass Knight room - Right",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 157,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Butler bros. room near door",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 68,
+            "y": 318
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Butler bros. room inner",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 281,
+            "y": 363
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Past butler room flamethrowers",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 54,
+            "y": 277
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Inside cracked wall hallway flamethrower",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 149,
+            "y": 219
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Past upper cracked wall flamethrowers",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 381,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Heinrich Meyer",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 688,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Nitro room crates",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 668,
+            "y": 217
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Magical Nitro shelf",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Heinrich side",
+            "item_count": 1
+          },
+          {
+            "name": "Invention side",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 709,
+            "y": 239
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Hell Knight landing corner knight",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 254,
+            "y": 272
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Maid sisters room vase",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 246,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Maid sisters room outer table",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 171,
+            "y": 368
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Maid sisters room inner table",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 250,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Invention room maid sisters door",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 379,
+            "y": 407
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Invention room spike crusher door",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 471,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Invention room giant Famicart",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 305,
+            "y": 233
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Invention room zeppelin",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 437,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Invention room round machine",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 486,
+            "y": 223
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Inside nitro hallway flamethrower",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 643,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Past nitro room flamethrowers",
+        "access_rules": [
+          "^$reach|Castle Center: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_nitro",
+            "x": 638,
+            "y": 299
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Mandragora shelf",
+        "access_rules": [
+          "^$reach|Castle Center: torture chamber"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          },
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 582,
+            "y": 643
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Torture chamber instrument rack",
+        "access_rules": [
+          "^$reach|Castle Center: torture chamber"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 574,
+            "y": 626
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Torture chamber rafters",
+        "access_rules": [
+          "^$reach|Castle Center: torture chamber"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 685,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Inside upper cracked wall",
+        "access_rules": [
+          "^$reach|Castle Center: library"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 370,
+            "y": 213
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Library bookshelf",
+        "access_rules": [
+          "^$reach|Castle Center: library"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_library",
+            "x": 1044,
+            "y": 294
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behind the seal",
+        "access_rules": [
+          "^$reach|Castle Center: big crystal"
+        ],
+        "chest_unopened_img": "images/locations/crystal.png",
+        "chest_opened_img": "images/locations/crystal_used.png",
+        "sections": [
+          {
+            "name": "Activated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 536,
+            "y": 341
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Behemoth",
+        "access_rules": [
+          "^$reach|Castle Center: big crystal"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_basement",
+            "x": 438,
+            "y": 382
+          }
+        ]
+      },
+      {
+        "name": "Castle Center: Rosa or Camilla",
+        "access_rules": [
+          "^$reach|Castle Center: big crystal"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_center_elevator",
+            "x": 816,
+            "y": 279
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Duel Tower",
+    "children": [
+      {
+        "name": "Duel Tower: Were-jaguar",
+        "access_rules": [
+          "^$reach|Duel Tower"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "duel_tower",
+            "x": 782,
+            "y": 831
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Duel Tower"
+        ]
+      },
+      {
+        "name": "Duel Tower: Werewolf",
+        "access_rules": [
+          "^$reach|Duel Tower"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "duel_tower",
+            "x": 782,
+            "y": 831
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Duel Tower"
+        ]
+      },
+      {
+        "name": "Duel Tower: Invisible bridge balcony",
+        "access_rules": [
+          "^$reach|Duel Tower"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          },
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "duel_tower",
+            "x": 773,
+            "y": 835
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Duel Tower"
+        ]
+      },
+      {
+        "name": "Duel Tower: Stepping stone path start",
+        "access_rules": [
+          "^$reach|Duel Tower"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "duel_tower",
+            "x": 726,
+            "y": 885
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Duel Tower"
+        ]
+      },
+      {
+        "name": "Duel Tower: Stepping stone path end",
+        "access_rules": [
+          "^$reach|Duel Tower"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "duel_tower",
+            "x": 299,
+            "y": 843
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Duel Tower"
+        ]
+      },
+      {
+        "name": "Duel Tower: Above Were-bull arena",
+        "access_rules": [
+          "^$reach|Duel Tower"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "duel_tower",
+            "x": 515,
+            "y": 830
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Duel Tower"
+        ]
+      },
+      {
+        "name": "Duel Tower: Were-bull",
+        "access_rules": [
+          "^$reach|Duel Tower"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "duel_tower",
+            "x": 515,
+            "y": 830
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Duel Tower"
+        ]
+      },
+      {
+        "name": "Duel Tower: Were-tiger",
+        "access_rules": [
+          "^$reach|Duel Tower"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "duel_tower",
+            "x": 515,
+            "y": 830
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Duel Tower"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Execution",
+    "children": [
+      {
+        "name": "Tower of Execution: Pre-mid-savepoint platforms ledge",
+        "access_rules": [
+          "^$reach|Tower of Execution: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit,subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_execution",
+            "x": 703,
+            "y": 824
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Execution"
+        ]
+      },
+      {
+        "name": "Tower of Execution: Past mid-savepoint spikes - Right",
+        "access_rules": [
+          "^$reach|Tower of Execution: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_execution",
+            "x": 640,
+            "y": 222
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Execution"
+        ]
+      },
+      {
+        "name": "Tower of Execution: Past mid-savepoint spikes - Left",
+        "access_rules": [
+          "^$reach|Tower of Execution: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_execution",
+            "x": 521,
+            "y": 301
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Execution"
+        ]
+      },
+      {
+        "name": "Tower of Execution: Electric grate ledge",
+        "access_rules": [
+          "^$reach|Tower of Execution: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_execution",
+            "x": 668,
+            "y": 80
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Execution"
+        ]
+      },
+      {
+        "name": "Tower of Execution: Invisible bridge ledge",
+        "access_rules": [
+          "^$reach|Tower of Execution: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_execution",
+            "x": 332,
+            "y": 899
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Execution"
+        ]
+      },
+      {
+        "name": "Tower of Execution: Guillotine tower top level",
+        "access_rules": [
+          "^$reach|Tower of Execution: main area"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_execution",
+            "x": 500,
+            "y": 499
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Execution"
+        ]
+      },
+      {
+        "name": "Tower of Execution: Key gate alcove",
+        "access_rules": [
+          "^$reach|Tower of Execution: gated ledge"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          },
+          {
+            "name": "Right",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_execution",
+            "x": 396,
+            "y": 935
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Execution"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Science",
+    "children": [
+      {
+        "name": "Tower of Science: Elevator hallway",
+        "access_rules": [
+          "^$reach|Tower of Science: turret lab"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 993,
+            "y": 366
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Plain sight side room",
+        "access_rules": [
+          "^$reach|Tower of Science: turret lab"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 917,
+            "y": 280
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Staircase side room",
+        "access_rules": [
+          "^$reach|Tower of Science: turret lab"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 828,
+            "y": 228
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Pick-a-door hallway locked middle room",
+        "access_rules": [
+          "^$reach|Tower of Science: locked key1 room"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 763,
+            "y": 459
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Invisible bridge platform torch",
+        "access_rules": [
+          "^$reach|Tower of Science: spiky conveyors"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 781,
+            "y": 211
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Invisible bridge platform crate",
+        "access_rules": [
+          "^$reach|Tower of Science: spiky conveyors"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 6",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 780,
+            "y": 205
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Spiky conveyor side room",
+        "access_rules": [
+          "^$reach|Tower of Science: spiky conveyors"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 283,
+            "y": 170
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Exit hallway",
+        "access_rules": [
+          "^$reach|Tower of Science: spiky conveyors"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 198,
+            "y": 400
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Locked Key3 room - Right",
+        "access_rules": [
+          "^$reach|Tower of Science: locked key3 room"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 195,
+            "y": 339
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Locked Key3 room - Middle",
+        "access_rules": [
+          "^$reach|Tower of Science: locked key3 room"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Middle",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 225,
+            "y": 352
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      },
+      {
+        "name": "Tower of Science: Locked Key3 room - Left",
+        "access_rules": [
+          "^$reach|Tower of Science: locked key3 room"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_science",
+            "x": 233,
+            "y": 322
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Science"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tower of Sorcery",
+    "children": [
+      {
+        "name": "Tower of Sorcery: Stained glass tower",
+        "access_rules": [
+          "^$reach|Tower of Sorcery"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_sorcery",
+            "x": 395,
+            "y": 546
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Sorcery"
+        ]
+      },
+      {
+        "name": "Tower of Sorcery: Mid-savepoint platform",
+        "access_rules": [
+          "^$reach|Tower of Sorcery"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_sorcery",
+            "x": 914,
+            "y": 435
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Sorcery"
+        ]
+      },
+      {
+        "name": "Tower of Sorcery: Trick shot from mid-savepoint platform",
+        "access_rules": [
+          "^$reach|Tower of Sorcery"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_sorcery",
+            "x": 733,
+            "y": 375
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Sorcery"
+        ]
+      },
+      {
+        "name": "Tower of Sorcery: Above yellow bubble",
+        "access_rules": [
+          "^$reach|Tower of Sorcery"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_sorcery",
+            "x": 691,
+            "y": 455
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Sorcery"
+        ]
+      },
+      {
+        "name": "Tower of Sorcery: Above tiny blue platforms start",
+        "access_rules": [
+          "^$reach|Tower of Sorcery"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_sorcery",
+            "x": 542,
+            "y": 547
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Sorcery"
+        ]
+      },
+      {
+        "name": "Tower of Sorcery: Lone red platform side island",
+        "access_rules": [
+          "^$reach|Tower of Sorcery"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_sorcery",
+            "x": 439,
+            "y": 441
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Sorcery"
+        ]
+      },
+      {
+        "name": "Tower of Sorcery: Invisible bridge platform",
+        "access_rules": [
+          "^$reach|Tower of Sorcery"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tower_of_sorcery",
+            "x": 722,
+            "y": 569
+          }
+        ],
+        "visibility_rules": [
+          "$stage_active|Tower of Sorcery"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Room of Clocks",
+    "children": [
+      {
+        "name": "Room of Clocks: Left from entrance hallway",
+        "access_rules": [
+          "^$reach|Room of Clocks"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "room_of_clocks",
+            "x": 266,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Room of Clocks: Right from entrance hallway",
+        "access_rules": [
+          "^$reach|Room of Clocks"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "room_of_clocks",
+            "x": 379,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Room of Clocks: Right of elevator hallway",
+        "access_rules": [
+          "^$reach|Room of Clocks"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "room_of_clocks",
+            "x": 396,
+            "y": 404
+          }
+        ]
+      },
+      {
+        "name": "Room of Clocks: Left of elevator hallway",
+        "access_rules": [
+          "^$reach|Room of Clocks"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "room_of_clocks",
+            "x": 333,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "Room of Clocks: Right of Contract",
+        "access_rules": [
+          "^$reach|Room of Clocks"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "room_of_clocks",
+            "x": 266,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Room of Clocks: Left of Contract",
+        "access_rules": [
+          "^$reach|Room of Clocks"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "room_of_clocks",
+            "x": 154,
+            "y": 355
+          }
+        ]
+      },
+      {
+        "name": "Room of Clocks: Left of exit",
+        "access_rules": [
+          "^$reach|Room of Clocks"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_empty"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "room_of_clocks",
+            "x": 202,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "name": "Room of Clocks: Death or Actrise",
+        "access_rules": [
+          "^$reach|Room of Clocks"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "room_of_clocks",
+            "x": 202,
+            "y": 489
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clock Tower",
+    "children": [
+      {
+        "name": "Clock Tower: Gear climb room beneath battery slab",
+        "access_rules": [
+          "^$reach|Clock Tower: start"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 545,
+            "y": 924
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Gear climb room side",
+        "access_rules": [
+          "^$reach|Clock Tower: start"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 910,
+            "y": 1137
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Gear climb room corner",
+        "access_rules": [
+          "^$reach|Clock Tower: start"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 766,
+            "y": 1167
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Gear climb room beneath door slab",
+        "access_rules": [
+          "^$reach|Clock Tower: start"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 783,
+            "y": 1109
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Bone Pillar chasm room - Front-left",
+        "access_rules": [
+          "^$reach|Clock Tower: middle"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Front-left",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 303,
+            "y": 968
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Bone Pillar chasm room - Front-right",
+        "access_rules": [
+          "^$reach|Clock Tower: middle"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Front-right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 528,
+            "y": 864
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Bone Pillar chasm room - Rear-left",
+        "access_rules": [
+          "^$reach|Clock Tower: middle"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Rear-left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 189,
+            "y": 317
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Bone Pillar chasm room key alcove",
+        "access_rules": [
+          "^$reach|Clock Tower: middle"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 209,
+            "y": 502
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Final room entrance slab",
+        "access_rules": [
+          "^$reach|Clock Tower: end"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 267,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Final room floor - front-left",
+        "access_rules": [
+          "^$reach|Clock Tower: end"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "front-left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 155,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Final room floor - front-right",
+        "access_rules": [
+          "^$reach|Clock Tower: end"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "front-right",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 414,
+            "y": 715
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Final room floor - rear-left",
+        "access_rules": [
+          "^$reach|Clock Tower: end"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "rear-left",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 726,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Final room floor - rear-right",
+        "access_rules": [
+          "^$reach|Clock Tower: end"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "rear-right",
+            "item_count": 1,
+            "visibility_rules": [
+              "subweapons_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 989,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Final room key ledge",
+        "access_rules": [
+          "^$reach|Clock Tower: end"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 228,
+            "y": 381
+          }
+        ]
+      },
+      {
+        "name": "Clock Tower: Renon's final offers slab",
+        "access_rules": [
+          "^$reach|Clock Tower: end"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item 1",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 2",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 3",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 4",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 5",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 6",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 7",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          },
+          {
+            "name": "Item 8",
+            "item_count": 1,
+            "visibility_rules": [
+              "setting_multi_hit"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "clock_tower",
+            "x": 430,
+            "y": 430
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Castle Keep",
+    "children": [
+      {
+        "name": "Castle Keep: Renon",
+        "access_rules": [
+          "^$reach|Castle Keep: exterior"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_keep",
+            "x": 195,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "Castle Keep: Vincent",
+        "access_rules": [
+          "^$reach|Castle Keep: exterior"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "goal_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_keep",
+            "x": 195,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "Castle Keep: Left Dracula door flame",
+        "access_rules": [
+          "^$reach|Castle Keep: exterior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_keep",
+            "x": 195,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "Castle Keep: Right Dracula door flame",
+        "access_rules": [
+          "^$reach|Castle Keep: exterior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_keep",
+            "x": 42,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "Castle Keep: Behind Dracula's chamber",
+        "access_rules": [
+          "^$reach|Castle Keep: exterior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_keep",
+            "x": 331,
+            "y": 467
+          }
+        ]
+      },
+      {
+        "name": "Castle Keep: Dracula's floating cube",
+        "access_rules": [
+          "^$reach|Castle Keep: exterior"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Item",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_keep",
+            "x": 544,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Dracula",
+        "access_rules": [
+          "^$reach|Castle Keep: Dracula's chamber"
+        ],
+        "chest_unopened_img": "images/locations/boss.png",
+        "chest_opened_img": "images/locations/boss_defeated.png",
+        "sections": [
+          {
+            "name": "Defeated",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "castle_keep",
+            "x": 759,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Renon's shop",
+    "children": [
+      {
+        "name": "Renon's shop",
+        "access_rules": [
+          "^$reach|Renon's shop"
+        ],
+        "chest_unopened_img": "images/locations/chest_closed.png",
+        "chest_opened_img": "images/locations/chest_open.png",
+        "sections": [
+          {
+            "name": "Roast Chicken purchase",
+            "item_count": 1
+          },
+          {
+            "name": "Roast Beef purchase",
+            "item_count": 1
+          },
+          {
+            "name": "Healing Kit purchase",
+            "item_count": 1
+          },
+          {
+            "name": "Purifying purchase",
+            "item_count": 1
+          },
+          {
+            "name": "Cure Ampoule purchase",
+            "item_count": 1
+          },
+          {
+            "name": "Sun Card purchase",
+            "item_count": 1
+          },
+          {
+            "name": "Moon Card purchase",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "villa",
+            "x": 698,
+            "y": 178
+          },
+          {
+            "map": "tunnel",
+            "x": 38,
+            "y": 494
+          },
+          {
+            "map": "tunnel",
+            "x": 604,
+            "y": 771
+          },
+          {
+            "map": "underground_waterway",
+            "x": 28,
+            "y": 1142
+          },
+          {
+            "map": "castle_center_basement",
+            "x": 138,
+            "y": 462
+          },
+          {
+            "map": "castle_center_library",
+            "x": 458,
+            "y": 329
+          },
+          {
+            "map": "castle_center_nitro",
+            "x": 600,
+            "y": 309
+          },
+          {
+            "map": "clock_tower",
+            "x": 386,
+            "y": 397
+          },
+          {
+            "map": "room_of_clocks",
+            "x": 200,
+            "y": 317
+          }
+        ],
+        "visibility_rules": [
+          "setting_shopsanity"
+        ]
+      }
+    ]
+  }
+]

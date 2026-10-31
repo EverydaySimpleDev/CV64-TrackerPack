@@ -1,0 +1,15 @@
+{
+  "name": "Castlevania 64 AP Map Tracker",
+  "game_name": "Castlevania 64",
+  "package_version": "1.0.0",
+  "package_uid": "cv64_ap_everydaysimpledev",
+  "author": "EverydaySimpleDev",
+  "platform": "n64",
+  "min_poptracker_version": "0.26.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": ["ap"]
+    }
+  }
+}
