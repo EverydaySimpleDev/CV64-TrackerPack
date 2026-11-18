@@ -2,6 +2,7 @@
 -- Items
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/stage_order.json")
 
 -- Logic before locations, so the functions used by access rules exist.
 ScriptHost:LoadScript("scripts/logic/world_data.lua")
@@ -22,11 +23,8 @@ end
 default_stage("goal", 1)  -- Dracula's Condition: Crystal
 local per_warp = Tracker:FindObjectForCode("special1s_per_warp")
 if per_warp then per_warp.AcquiredCount = 1 end
--- Without slot_data the stage order and warps are unknown, so start with
--- every stage treated as enterable. Turned off automatically on connect
--- when the world sends its stage order.
-local open = Tracker:FindObjectForCode("setting_open_stages")
-if open then open.Active = true end
+-- Without slot_data the stage order and warps come from the Stage Order
+-- panel, which starts with everything at "?" (vanilla stage order).
 
 -- Archipelago autotracking needs PopTracker 0.18.0 or newer.
 if PopVersion and PopVersion >= "0.18.0" then

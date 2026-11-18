@@ -21,6 +21,15 @@
             },
             {
               "type": "group",
+              "header": "Stage Order",
+              "dock": "right",
+              "content": {
+                "type": "layout",
+                "key": "stage_order_grid"
+              }
+            },
+            {
+              "type": "group",
               "header": "Items",
               "content": {
                 "type": "layout",
@@ -93,7 +102,43 @@
       ],
       [
         "special1s_per_warp",
-        "setting_open_stages"
+        "setting_open_stages",
+        "setting_stage_shuffle"
+      ]
+    ]
+  },
+  "stage_order_grid": {
+    "type": "itemgrid",
+    "item_margin": "2,2",
+    "item_size": 40,
+    "rows": [
+      [
+        "warp_start",
+        "warp_1",
+        "warp_2",
+        "warp_3",
+        "warp_4",
+        "warp_5",
+        "warp_6",
+        "warp_7"
+      ],
+      [
+        "next_forest_of_silence",
+        "next_castle_wall",
+        "next_villa",
+        "alt_villa",
+        "next_tunnel",
+        "next_underground_waterway",
+        "next_castle_center"
+      ],
+      [
+        "alt_castle_center",
+        "next_duel_tower",
+        "next_tower_of_execution",
+        "next_tower_of_science",
+        "next_tower_of_sorcery",
+        "next_room_of_clocks",
+        "next_clock_tower"
       ]
     ]
   }

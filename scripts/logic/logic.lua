@@ -6,8 +6,9 @@
 -- On top of the plain graph the world adds:
 --   * Stage order: each stage's end leads to the start of the next stage in
 --     the seed's order (stage shuffle), and some stages lead back to the end
---     of the previous one. The order comes from slot_data, or the vanilla
---     order for the chosen character setting when there is no slot_data.
+--     of the previous one. The order comes from slot_data. Without slot_data
+--     it comes from the Stage Order panel, and any stage left at "?" uses its
+--     vanilla link (Stage Shuffle off) or leads nowhere (Stage Shuffle on).
 --   * Warps: from the menu, warp N goes to the middle of a stage once you have
 --     N x "Special1s per warp" Special1s.
 --   * Dracula's door: needs the Crystal, enough boss kills or enough
@@ -84,13 +85,106 @@ local function vanilla_exits(characters)
     return exits
 end
 
+-- The Stage Order panel. Each of its items is a progressive setting whose
+-- stage 0 is "?" (not known yet) and stage N is STAGE_ORDER[N]:
+--   warp_start, warp_1 .. warp_7   the warp menu, top to bottom
+--   next_<stage>                    the stage reached by finishing <stage>
+--   alt_villa, alt_castle_center    the same for the Carrie path (branching only)
+-- <stage> is the stage name in lower case with "_" for anything else.
+WARP_CODES = { "warp_start", "warp_1", "warp_2", "warp_3", "warp_4", "warp_5", "warp_6", "warp_7" }
+
+STAGE_INDEX = {}
+for i, stage in ipairs(STAGE_ORDER) do STAGE_INDEX[stage] = i end
+
+function stage_link_code(stage, link)
+    return link .. "_" .. (stage:lower():gsub("[^%w]", "_"))
+end
+
+-- Every Stage Order code, for the cache key.
+local STAGE_ORDER_CODES = {}
+for _, code in ipairs(WARP_CODES) do STAGE_ORDER_CODES[#STAGE_ORDER_CODES + 1] = code end
+for _, stage in ipairs(STAGE_ORDER) do
+    if stage ~= "Castle Keep" then
+        STAGE_ORDER_CODES[#STAGE_ORDER_CODES + 1] = stage_link_code(stage, "next")
+    end
+    if VANILLA_STAGE_EXITS[stage].alt then
+        STAGE_ORDER_CODES[#STAGE_ORDER_CODES + 1] = stage_link_code(stage, "alt")
+    end
+end
+
+-- The stage picked in a Stage Order item, or nil for "?".
+local function picked_stage(code)
+    return STAGE_ORDER[setting_stage(code)]
+end
+
+-- Where a backtracking stage leads back to, worked out from the forward links
+-- the way the world's shuffle_stages does it: the stage whose exit leads here.
+-- When both paths of a branch lead here, the main path's stage wins. the
+-- Carrie path stages (after Villa's and Castle Center's "alt" exit) can only
+-- be backtracked into from the stage right after them.
+local function backtrack_target(stage, exits)
+    local carrie_path = {}
+    for _, branch in ipairs({ "Villa", "Castle Center" }) do
+        local alt = exits[branch] and exits[branch].alt
+        if alt then
+            carrie_path[alt] = true
+            -- Castle Center's Carrie path is two stages long
+            if branch == "Castle Center" and exits[alt] and exits[alt].next then
+                carrie_path[exits[alt].next] = true
+            end
+        end
+    end
+    local found
+    for _, from in ipairs(STAGE_ORDER) do
+        local e = exits[from]
+        if e and (e.next == stage or e.alt == stage) then
+            if not carrie_path[from] then return from end
+            found = found or from
+        end
+    end
+    return found
+end
+
+-- Stage links from the Stage Order panel, for worlds without slot_data.
+local function panel_exits(characters)
+    local vanilla = vanilla_exits(characters)
+    local shuffled = has("setting_stage_shuffle")
+    local exits = {}
+    for stage, v in pairs(vanilla) do
+        local e = {}
+        for _, link in ipairs({ "next", "alt" }) do
+            -- an "alt" exit only exists where the character setting has branches
+            if v[link] or (link == "next" and stage ~= "Castle Keep") then
+                local picked = picked_stage(stage_link_code(stage, link))
+                if picked then
+                    e[link] = picked
+                elseif not shuffled then
+                    e[link] = v[link]
+                end
+            end
+        end
+        exits[stage] = e
+    end
+    for stage, v in pairs(vanilla) do
+        if VANILLA_STAGE_EXITS[stage].prev then
+            if shuffled then
+                exits[stage].prev = backtrack_target(stage, exits)
+            else
+                exits[stage].prev = v.prev
+            end
+        end
+    end
+    return exits
+end
+
 local function current_exits()
-    return SLOT.stage_exits or vanilla_exits(setting_stage("characters"))
+    return SLOT.stage_exits or panel_exits(setting_stage("characters"))
 end
 
 -- Used by visibility rules: hides the checks of stages that are not in the seed.
 function stage_active(stage)
-    return current_exits()[stage] ~= nil
+    if SLOT.stage_exits then return SLOT.stage_exits[stage] ~= nil end
+    return vanilla_exits(setting_stage("characters"))[stage] ~= nil
 end
 
 -- The region an entrance between stages leads to, or nil if it leads nowhere
@@ -167,23 +261,33 @@ local function menu_regions(exits)
         return out
     end
 
-    local warps = SLOT.warp_list
-    if warps and warps[1] then
-        out[#out + 1] = STAGES[warps[1]].start
-        local per_warp = count("special1s_per_warp")
-        local s1 = count("special1")
-        for i = 2, #warps do
-            if STAGES[warps[i]] and s1 >= per_warp * (i - 1) then
-                out[#out + 1] = STAGES[warps[i]].mid
-            end
+    -- the warp menu from slot_data, or else from the Stage Order panel
+    local warps = {}
+    for i, code in ipairs(WARP_CODES) do
+        if SLOT.warp_list then
+            warps[i] = SLOT.warp_list[i]
+        else
+            warps[i] = picked_stage(code)
         end
-    else
-        -- no slot_data: the first stage in vanilla order, no known warps
+    end
+
+    local start = warps[1]
+    if not (start and exits[start]) then
+        -- starting stage unknown: the first stage in vanilla order
+        -- (the world's default Starting Stage)
+        start = nil
         for _, stage in ipairs(STAGE_ORDER) do
-            if exits[stage] then
-                out[#out + 1] = STAGES[stage].start
-                break
-            end
+            if exits[stage] then start = stage break end
+        end
+    end
+    if start then out[#out + 1] = STAGES[start].start end
+
+    local per_warp = count("special1s_per_warp")
+    local s1 = count("special1")
+    for i = 2, #WARP_CODES do
+        local stage = warps[i]
+        if stage and STAGES[stage] and exits[stage] and s1 >= per_warp * (i - 1) then
+            out[#out + 1] = STAGES[stage].mid
         end
     end
     return out
@@ -227,6 +331,7 @@ local STATE_CODES = {
     "clocktower_key1", "clocktower_key2", "clocktower_key3",
     "magical_nitro", "mandragora", "special1", "special2", "crystal",
     "setting_hard_logic", "setting_carrie_logic", "setting_shopsanity", "setting_open_stages",
+    "setting_stage_shuffle",
     "special1s_per_warp", "goal_count",
 }
 
@@ -236,6 +341,9 @@ local function state_key()
     local parts = { SLOT_GENERATION, setting_stage("characters"), setting_stage("goal") }
     for _, code in ipairs(STATE_CODES) do
         parts[#parts + 1] = count(code)
+    end
+    for _, code in ipairs(STAGE_ORDER_CODES) do
+        parts[#parts + 1] = setting_stage(code)
     end
     return table.concat(parts, ",")
 end

@@ -110,6 +110,19 @@ local function reset_section(path)
     if obj then obj.AvailableChestCount = obj.ChestCount end
 end
 
+-- Show the seed's stage order and warp menu in the 
+-- Stage Order panel. The logic reads slot_data.
+local function show_stage_order(slot_data)
+    for i, code in ipairs(WARP_CODES) do
+        set_stage(code, STAGE_INDEX[slot_data.warp_list[i]] or 0)
+    end
+    for _, stage in ipairs(STAGE_ORDER) do
+        local links = slot_data.stage_exits[stage] or {}
+        set_stage(stage_link_code(stage, "next"), STAGE_INDEX[links.next] or 0)
+        set_stage(stage_link_code(stage, "alt"), STAGE_INDEX[links.alt] or 0)
+    end
+end
+
 -- Copy the seed's options from slot_data into the setting items, so the
 -- visibility rules and logic match the seed. World versions without
 -- slot_data leave the settings as the player set them.
@@ -117,7 +130,8 @@ local function apply_slot_data(slot_data)
     if slot_data == nil or slot_data.stage_exits == nil then
         SLOT.stage_exits = nil
         SLOT.warp_list = nil
-        print("CV64 tracker: no slot_data from this world version - set the options in the Settings panel")
+        print("CV64 tracker: no slot_data from this world version - set the options in the Settings panel"
+            .. " and, with Stage Shuffle, your stage order in the Stage Order panel")
         return
     end
 
@@ -131,6 +145,8 @@ local function apply_slot_data(slot_data)
     set_toggle("setting_lizard_lockers", truthy(slot_data.lizard_locker_items))
     set_toggle("setting_shopsanity", truthy(slot_data.shopsanity))
     set_toggle("setting_open_stages", false)  -- the real stage order is known now
+    set_toggle("setting_stage_shuffle", truthy(slot_data.stage_shuffle))
+    if slot_data.warp_list then show_stage_order(slot_data) end
     set_stage("subweapons", slot_data.sub_weapon_shuffle)
     set_stage("characters", slot_data.character_stages)
     set_stage("goal", slot_data.draculas_condition)

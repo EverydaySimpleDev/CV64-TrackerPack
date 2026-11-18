@@ -6,6 +6,7 @@
   { "name": "Lizard Locker Items", "type": "toggle", "img": "images/settings/setting_lizard_lockers.png", "codes": "setting_lizard_lockers" },
   { "name": "Shopsanity", "type": "toggle", "img": "images/settings/setting_shopsanity.png", "codes": "setting_shopsanity" },
   { "name": "Open Stages (ignore stage order)", "type": "toggle", "img": "images/settings/setting_open_stages.png", "codes": "setting_open_stages" },
+  { "name": "Stage Shuffle (unknown stage links lead nowhere)", "type": "toggle", "img": "images/settings/setting_stage_shuffle.png", "codes": "setting_stage_shuffle" },
   {
     "name": "Sub-weapon Shuffle", "type": "progressive", "codes": "subweapons", "allow_disabled": false, "loop": true,
     "stages": [
